@@ -7,7 +7,7 @@
     <title>Ayaz Shaikh - Hero</title>
 
     <!-- External Stylesheets and Fonts -->
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Orbitron:wght@400..900&display=swap"
         rel="stylesheet" />
 
@@ -15,7 +15,7 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-black text-pink-500 font-[Orbitron]">
+<body class="w-screen h-full bg-black text-pink-500 font-[Orbitron]">
     <!-- Custom Cursor -->
     <div id="cursor" class="w-[100px] md:w-[150px] h-[100px] md:h-[150px]"></div>
 
@@ -102,7 +102,7 @@
     <!-- Project Section -->
     <div id="projectSection" class="w-full h-full flex flex-col justify-center items-center">
         <div id="projects">
-            <div class="projectContainer flex justify-center items-center gap-[5vw] px-[4vw] text-[#86881b]">
+            <div class="projectContainer flex justify-center items-center gap-[5vw] mt-[5vh] px-[4vw] text-[#86881b]">
                 <div class="projectContent w-[50vw] text-[3vw]">
                     <h1 class="text-[5.5vw] font-bold">Project 1 </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi at metus condimentum
@@ -129,7 +129,8 @@
                         alt="projectImg" />
                 </div>
             </div>
-            <div class="projectContainer flex justify-center items-center gap-[5vw] mt-[10vh] px-[4vw] text-[#0BEAA7]">
+            <div
+                class="projectContainer flex justify-center items-center gap-[5vw] mt-[10vh] mb-[5vh] px-[4vw] text-[#0BEAA7]">
                 <div class="projectContent w-[50vw] text-[3vw]">
                     <h1 class="text-[5.5vw] font-bold">Project 1 </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi at metus condimentum
@@ -145,6 +146,76 @@
 
         </div>
     </div>
+
+    <!-- About Section -->
+    <div id="aboutSection" class="w-full h-full font-bold mt-[20vh] mb-[5vh] flex flex-col justify-center items-center">
+        <div id="container" class="flex justify-center items-end gap-[2vw]">
+            <div id="photo">
+                <img src="assets/images/me.jpg" alt="My Photo"
+                    class="rounded-full w-[80vw] h-[35vh] md:h-[70vh] object-cover p-[4vw]">
+            </div>
+            <div id="aboutText"
+                class="flex flex-col text-left text-[#7bff00] font-bold text-[5.5vw] px-[2vw] py-[3vh] tracking-widers">
+                <span>I’m Ayaz Shaikh,</span> <span>
+                    LeArninG to MakE thiNgs ReAl.
+                </span>
+            </div>
+        </div>
+        <div id="skills" class="p-6">
+            <h3 class="text-[6vw] font-bold mb-4">What I Do</h3>
+           <div id="containerText" class="text-[4vw] text-[#7bff00]">
+            <p>🔹 Build responsive websites</p>
+            <p>🔹 Design interactive user interfaces</p>
+            <p>🔹 Create smooth, creative animations</p>
+           </div>
+        </div>
+        <div id="skills" class="p-6 text-right">
+            <h3 class="text-[6vw] text-right font-bold mb-4">My Tech Stack</h3>
+           <div id="containerText" class="text-[4vw] text-[#7bff00]">
+            <p> HTMl & CSS/Tailwind 🔹</p>
+            <p> Javascript & GSAP (animations) 🔹</p>
+            <p> Learning React and Express 🔹</p>
+           </div>
+        </div>
+    </div>
+
+    <!-- marquee Section -->
+    <div id="marqueeSection" class="w-full h-auto">
+        <div id="marqueeContainer1"
+            class="flex justify-center items-center bg-[#320033] text-[#FFE600] text-[7vw] md:text-[3vw] font-bold">
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Let Magic Happen</h1>
+                <span class="logo">🧑‍💻</span>
+            </div>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Let Magic Happen</h1>
+                <span class="logo">🧑‍💻</span>
+            </div>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Let Magic Happen</h1>
+                <span class="logo">🧑‍💻</span>
+            </div>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Let Magic Happen</h1>
+                <span class="logo">🧑‍💻</span>
+            </div>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Let Magic Happen</h1>
+                <span class="logo">🧑‍💻</span>
+            </div>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Let Magic Happen</h1>
+                <span class="logo">🧑‍💻</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+     <div id="contact" class="w-full h-[20vh] my-[5vh] md:my-[10vh] flex flex-col justify-center items-center font-bold text-[4vw]">
+        <h1>Thanks for visiting</h1>
+        <h1>If you liked my Work - Let's Connect</h1>
+        <a href="#" class="text-[6vw] bg-green-500 text-black px-5 py-1 mt-5 rounded-full">linkedIN </a>
+     </div>
 
     <!-- External Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
