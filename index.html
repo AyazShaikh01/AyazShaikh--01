@@ -15,155 +15,143 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="h-full bg-black text-pink-500 font-[Orbitron]">
+<body class="bg-black text-pink-500 font-[Orbitron]">
     <!-- Custom Cursor -->
-    <div id="cursor"></div>
+    <div id="cursor" class="w-[100px] md:w-[150px] h-[100px] md:h-[150px]"></div>
 
-    <!-- Hero Section -->
-    <div id="hero" class="w-full h-screen flex flex-col justify-center items-start mt-10 relative">
-        <!-- Name Section -->
-        <div id="name">
-            <h1 id="me" class="font-[Inspiration] italic tracking-normal font-bold text-[21rem] absolute ml-70">
-                Ayaz Shaikh
-            </h1>
-        </div>
-
-        <!-- Content Section -->
-        <div id="content"
-            class="text-[13rem] flex flex-col justify-center items-start font-semibold tracking-tight leading-[0.85]">
-            <div>
-                <h1 id="aspiring" class="text-green-400">Aspiring</h1>
+    <!-- HERO SECTION -->
+    <div id="hero" class="w-full h-full flex justify-center items-center overflow-hidden">
+        <div id="heroContainer" class="relative w-full h-full flex justify-start items-start pb-[15vh] md:py-[5vh]">
+            <div id="mainContent" class="text-[16.5vw] md:text-[14vw] mt-[10vh] md:mt-0 leading-[0.89] font-bold">
+                <div>
+                    <h1 id="aspiring" class="text-green-500">Aspiring</h1>
+                </div>
+                <div>
+                    <h1 id="web"> Web </h1>
+                </div>
+                <div>
+                    <h1 id="developer">Developer</h1>
+                </div>
             </div>
-            <div>
-                <h1 id="web">Web</h1>
-            </div>
-            <div>
-                <h1 id="developer">Developer</h1>
+            <div id="myName"
+                class="absolute right-0 top-30 md:top-40 font-semibold font-[Inspiration] text-[28vw] md:text-[21vw] flex flex-col leading-none md:flex-row">
+                <h1>Ayaz</h1>
+                <h1>Shaikh</h1>
             </div>
         </div>
-
-        <div id="divided" class="w-full h-20 mt-10"></div>
     </div>
 
     <!-- Marquee Section -->
-    <div id="marqueeSection" class="w-full h-full mt-10 mb-30">
-        <div id="move1" class="w-full flex rotate-5 bg-[#FBF300] text-black">
-            <div class="marquee">
+    <div id="marqueeSection" class="w-full h-[30vh] my-25 md:my-[30]">
+        <div id="marqueeContainer1"
+            class="flex justify-center items-center rotate-5 bg-[#FBF300] text-black text-[7vw] md:text-[3vw] font-bold">
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
                 <h1>Just Imagine</h1>
                 <span class="logo">👀</span>
             </div>
-            <div class="marquee">
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
                 <h1>Just Imagine</h1>
                 <span class="logo">👀</span>
             </div>
-            <div class="marquee">
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
                 <h1>Just Imagine</h1>
                 <span class="logo">👀</span>
             </div>
-            <div class="marquee">
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
                 <h1>Just Imagine</h1>
                 <span class="logo">👀</span>
             </div>
-            <div class="marquee">
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
                 <h1>Just Imagine</h1>
                 <span class="logo">👀</span>
             </div>
-            <div class="marquee">
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
                 <h1>Just Imagine</h1>
                 <span class="logo">👀</span>
             </div>
-            <div class="marquee">
-                <h1>Just Imagine</h1>
-                <span class="logo">👀</span>
-            </div>
-            <div class="marquee">
-                <h1>Just Imagine</h1>
-                <span class="logo">👀</span>
-            </div>
-            <div class="marquee">
-                <h1>Just Imagine</h1>
-                <span class="logo">👀</span>
-            </div>
-
         </div>
-        <div id="move2" class="w-full flex -rotate-5 bg-[#640BFF] text-white">
-            <div class="marquee">
-                <h1>Make it Real</h1>
+        <div id="marqueeContainer2"
+            class="flex justify-center items-center -rotate-5 bg-[#640BFF] text-black text-[7vw] md:text-[3vw] font-bold">
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Make It Real</h1>
                 <span class="logo">⏳</span>
             </div>
-            <div class="marquee">
-                <h1>Make it Real</h1>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Make It Real</h1>
                 <span class="logo">⏳</span>
             </div>
-            <div class="marquee">
-                <h1>Make it Real</h1>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Make It Real</h1>
                 <span class="logo">⏳</span>
             </div>
-            <div class="marquee">
-                <h1>Make it Real</h1>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Make It Real</h1>
                 <span class="logo">⏳</span>
             </div>
-            <div class="marquee">
-                <h1>Make it Real</h1>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Make It Real</h1>
                 <span class="logo">⏳</span>
             </div>
-            <div class="marquee">
-                <h1>Make it Real</h1>
+            <div class="marquee flex shrink-0 justify-start items-center gap-[1.4vw] px-[1vw] py-[1vh]">
+                <h1>Make It Real</h1>
                 <span class="logo">⏳</span>
             </div>
-            <div class="marquee">
-                <h1>Make it Real</h1>
-                <span class="logo">⏳</span>
-            </div>
-            <div class="marquee">
-                <h1>Make it Real</h1>
-                <span class="logo">⏳</span>
-            </div>
-            <div class="marquee">
-                <h1>Make it Real</h1>
-                <span class="logo">⏳</span>
-            </div>
-
         </div>
-    </div>
     </div>
 
     <!-- Project Section -->
-    <div id="projectSection" class="w-full h-full flex flex-col justify-center items-center mt-[20rem]">
+    <div id="projectSection" class="w-full h-full flex flex-col justify-center items-center">
         <div id="projects">
-            <div class="alternativeContainer">
-                <div class="projectContent">
-                    <h1>Project 1 </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum bibendum.</p>
+            <div class="projectContainer flex justify-center items-center gap-[5vw] px-[4vw] text-[#86881b]">
+                <div class="projectContent w-[50vw] text-[3vw]">
+                    <h1 class="text-[5.5vw] font-bold">Project 1 </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi at metus condimentum
+                        bibendum. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum
+                        bibendum.</p>
                 </div>
                 <div class="projectCard">
-                    <img class="w-full h-[70vh] object-cover" src="https://i.pinimg.com/736x/ac/a0/ba/aca0bae1cb6c04e7e4fd41eb78216ded.jpg" alt="projectImg" />
-                </div>
-                
-            </div>
-            <div class="projectContainer">
-                <div class="projectCard">
-                    <img class="w-full h-[70vh] object-cover" src="https://i.pinimg.com/736x/7f/1a/16/7f1a16106132d4441b227fa784c19617.jpg" alt="projectImg" />
-                </div>
-                <div class="projectContent">
-                    <h1>Project 2 </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum bibendum.</p>
+                    <img class="w-[65vw] object-cover rounded-[5vw]"
+                        src="https://i.pinimg.com/736x/ac/a0/ba/aca0bae1cb6c04e7e4fd41eb78216ded.jpg"
+                        alt="projectImg" />
                 </div>
             </div>
-            <div class="alternativeContainer">
-                <div class="projectContent">
-                    <h1>Project 3 </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum bibendum.</p>
+            <div
+                class="projectContainer flex flex-row-reverse justify-center items-center gap-[5vw] mt-[10vh] px-[4vw] text-[#4D8E25]">
+                <div class="projectContent w-[50vw] text-[3vw]">
+                    <h1 class="text-[5.5vw] font-bold">Project 1 </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi at metus condimentum
+                        bibendum. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum
+                        bibendum.</p>
                 </div>
                 <div class="projectCard">
-                    <img class="w-full h-[70vh] object-cover" src="https://i.pinimg.com/736x/89/9c/f4/899cf45206a46b5c2ad8c31d6cdad34d.jpg" alt="projectImg" />
+                    <img class="w-[65vw] object-cover rounded-[5vw]"
+                        src="https://i.pinimg.com/736x/7f/1a/16/7f1a16106132d4441b227fa784c19617.jpg"
+                        alt="projectImg" />
                 </div>
-                
             </div>
-        </div>
+            <div class="projectContainer flex justify-center items-center gap-[5vw] mt-[10vh] px-[4vw] text-[#0BEAA7]">
+                <div class="projectContent w-[50vw] text-[3vw]">
+                    <h1 class="text-[5.5vw] font-bold">Project 1 </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nisi at metus condimentum
+                        bibendum. Sed vel nisi at metus condimentum bibendum. Sed vel nisi at metus condimentum
+                        bibendum.</p>
+                </div>
+                <div class="projectCard">
+                    <img class="w-[65vw] object-cover rounded-[5vw]"
+                        src="https://i.pinimg.com/736x/89/9c/f4/899cf45206a46b5c2ad8c31d6cdad34d.jpg"
+                        alt="projectImg" />
+                </div>
+            </div>
 
+        </div>
     </div>
 
+    <!-- About Section -->
+    <div id="AboutSection" class="w-full h-full bg-gray-900">
+        <div id="aboutContainer">
+
+        </div>
+    </div>
 
     <!-- External Script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"

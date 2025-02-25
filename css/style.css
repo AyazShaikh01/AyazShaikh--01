@@ -3,23 +3,18 @@
 html, body{
     cursor: none;
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    font-family: "Orbitron", serif; 
+    font-family: "Orbitron", serif;
     overflow-x: hidden;
 }
 
-#name {
+#myName {
     pointer-events: none;
     color: #7bff00;
-    letter-spacing: 5px;
-    text-shadow: -9px -4px 20px #242424, 14px 15px 20px #226122, 1px 2px 20px rgb(0 0 0 / 80%);
+    text-shadow: 3px 4px 4px #000000, 5px 3px 17px #077807, 1px 0px 18px rgb(99 35 35 / 80%);
 }
 
 /* Custom Cursor */
 #cursor {
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
     background-color: white;
     mix-blend-mode: difference;
@@ -32,7 +27,6 @@ html, body{
 }
 
 /* Dynamic Text Loading */
-
 .char {
     display: inline-block;   /* Ensure hover effect applies properly */
     transition: transform 0.4s ease, font-size 0.4s ease;   /* Smooth transition */
@@ -41,99 +35,4 @@ html, body{
 .char:hover {
     transform: scale(0.5);   /* Corrected scaling */
     font-size: 1em;   /* Adjust font size properly */
-}
-
-/* Marquee */
-.marquee{
-    overflow: hidden;
-    display: flex;
-    flex-shrink: 0;
-    gap: 1rem;
-    font-size: 3rem;
-    font-weight: bold;
-    padding: 1.3rem;
-    margin-left: 35px;
-}
-
-.marquee .logo{
-    mix-blend-mode: normal;
-}
-
-/* Project Section */
-#projects{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 50px;
-}
-
-.projectContainer img{
-    width: 25vw;
-    height: 80vh;
-    border-radius: 10%;
-    /* rotate: -7deg; */
-}
-
-.projectContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 8rem;
-}
-
-.projectContent{
-    width: 50vw;
-    height: 60vh;
-    /* rotate: -7deg; */
-    font-size: 2rem;
-    font-weight: 700;
-    color: #00fff2;
-}
-
-.projectContainer h1{
-    font-weight: bold;
-    font-size: 3em;
-}
-
-
-/* Alternative Section */
-.alternativeContainer img{
-    width: 25vw;
-    height: 80vh;
-    border-radius: 10%;
-    /* rotate: 7deg; */
-}
-
-.alternativeContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    margin-top: 8rem;
-}
-
-.alternativeContainer .projectContent{
-    width: 50vw;
-    height: 60vh;
-    /* rotate: 7deg; */
-    font-size: 2rem;
-    font-weight: 700;
-    color: #00fff2;
-}
-
-.alternativeContainer h1{
-    font-weight: bold;
-    font-size: 3em;
-}
-
-.projectCard{
-    transition: all 1.5s ease;  
-}
-
-.projectCard:hover{
-    scale: 1.2;
-
-    transition: all 1.5s ease;
 }
