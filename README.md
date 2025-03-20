@@ -12,7 +12,9 @@ Welcome to my personal portfolio website! This site showcases my journey as an a
 
 ## About Me
 
-I’m Ayaz Shaikh, learning to make things real. Passionate about building responsive websites, designing interactive user interfaces, and creating smooth, creative animations.
+I’m Ayaz Shaikh, learning to make things real. Passionate about building responsive websites, designing interactive user interfaces, and creating smooth, creative animations. This is the Personal Portfolio website. This project is made to Strengthen fundamental concepts.
+   - Technologies Used: HTML, Tailwind CSS, Javascript, GSAP (animation)
+   - [Live Demo](https://ayazshaikh01.github.io/AyazShaikh--01/) | [Source Code](https://github.com/AyazShaikh01/AyazShaikh--01)
 
 ## Projects
 
